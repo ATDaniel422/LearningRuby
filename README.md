@@ -1,2 +1,2 @@
 # LearningRuby
-These are the fiels I created while learning Ruby
+These are the files I created while learning Ruby
