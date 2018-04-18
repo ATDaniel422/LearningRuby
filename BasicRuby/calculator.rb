@@ -14,7 +14,11 @@ def subtract(num1, num2)
 	return num1 - num2
 end
 
-puts "What would you like to do? 1) add, 2) subtract, 3) multiply, 4) divide"
+puts "What would you like to do? 
+	1) add 
+	2) subtract 
+	3) multiply 
+	4) divide"
 response = gets.chomp.to_i
 
 puts "Enter first number"

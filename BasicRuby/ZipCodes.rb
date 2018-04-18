@@ -16,7 +16,7 @@ end
 loop do
   puts "Do you want to look up a zip code? (Y/N)"
   answer = gets.chomp.upcase
-  if !answer == "Y"
+  if answer != "Y"
     break
   end
   puts "Which city would you like to look up?"
@@ -30,5 +30,5 @@ loop do
     puts "That city is not on my list. Can you even read?"
     puts ""
   end
-  
+
 end
